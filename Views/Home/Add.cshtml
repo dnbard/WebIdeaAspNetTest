@@ -1,0 +1,13 @@
+﻿@model WebIdea_Asp.Net_Test.Models.Dataset
+
+@{
+    Layout = null;
+}
+
+@foreach (var item in Model)
+            {
+                <div class="slide-item">
+                    <div class="slide-thumb"><img src="@item.ImagePath" alt="" /></div>
+                    <span class="slide-title">@item.Name - @item.Price</span>
+                </div>
+            }

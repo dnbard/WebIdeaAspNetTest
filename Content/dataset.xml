@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <name>Hulk</name>
+    <price>125.00</price>
+    <image>http://th03.deviantart.net/fs70/200H/f/2012/067/4/e/4eb0d5cf4dcce6be3d8342e56dd7171e-d4s4mhm.jpg</image>
+  </item>
+  <item>
+    <name>Just add something to Hulk</name>
+    <price>125.00</price>
+    <image>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQX7_o4lWi4iQsR0w0z_-UK8Ievl_n75S6dqapFAWEJBStIdaHA</image>
+  </item>
+</items>

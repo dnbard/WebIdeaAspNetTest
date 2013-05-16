@@ -1,0 +1,186 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+.main {
+    text-align: center;
+}
+
+.error {
+    background: pink;
+    border: solid 1px gray;
+    border-radius: 5px;
+    width: 20%;
+    margin: auto;
+}
+
+/* Slider */
+.slider {
+	width: 900px;
+	margin: 50px auto;
+	padding: 0 50px;
+	position: relative;
+}
+.slide-list {
+	overflow: hidden;
+	position: relative;
+}
+.slide-wrap {
+	position: relative;
+	width: 10000px;
+	clear: right;
+}
+.slide-item {
+	width: 160px;
+	padding: 10px;
+	float: left;
+}
+.slide-thumb {
+	height: 200px;
+	line-height: 200px;
+	overflow: hidden;
+}
+.slide-thumb img {
+	width: 100%;
+	display: inline;
+	vertical-align: bottom;
+}
+.slide-title a {
+	color: #6b2525;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: monospace;
+	line-height: 1.3;
+	display: block;
+	padding-top: 10px;
+	text-shadow: 0 1px white;
+}
+.slide-title a i {
+	font-size: 12px;
+	color: #666;
+}
+
+/* навигация по слайдеру */
+.navy {
+	position: absolute;
+	top: 80px;
+	width: 50px;
+	height: 50px;
+	color: #0074A3;
+	text-align: center;
+	line-height: 50px;
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 0 1px #fff;
+	transition: all .5s;
+	-o-transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+}
+
+.prev-slide {
+	left: 0px;
+}
+.next-slide {
+	right: 0px;
+}
+
+.navy:hover {
+	color: #073e61;
+}
+
+.navy:active {
+	top: 82px;
+	color: #ed0000;
+}
+
+.navy.disabled,
+.navy.disabled:hover,
+.navy.disabled:active {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: default;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url("font/fontello.eot");
+  src: url("font/fontello.eot?#iefix") format('embedded-opentype'), url("font/fontello.woff") format('woff'), url("font/fontello.ttf") format('truetype'), url("font/fontello.svg#fontello") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	font-family: 'fontello';
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: 0.2em;
+	text-align: center;
+	opacity: 0.8;
+	line-height: 1em;
+	margin-left: 0.2em;
+}
+
+.icon-left-open-big:before { content: '\e765'; } 
+.icon-right-open-big:before { content: '\e766'; } 
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
